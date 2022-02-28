@@ -1,0 +1,16 @@
+a {
+  padding: 20px 0;
+  color: white;
+  text-decoration: none;
+  margin: 0 15px 0 0;
+}
+
+a:last-child {
+  margin: 0;
+}
+
+nav.topnav {
+  position: sticky !important;
+  width: 100% !important;
+  padding: 10px;
+}
