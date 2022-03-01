@@ -9,7 +9,7 @@ export default function Root(props) {
     <nav style={{ background: "steelblue", padding: "25px" }}>
       {links.map((link) => {
         return (
-          <Link key={link.href} to={link.href}>
+          <Link key={link.href} to={link.href} replace>
             {link.name}
           </Link>
         );
